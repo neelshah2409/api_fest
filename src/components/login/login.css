@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lcontainer{
+    background-color:#1464F4;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lapp-wrapper{
+    background-color: #fff;
+    min-height: 650px;
+    min-width: 350px;
+    padding: 30px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.ltitle{
+    color: #1464F4;
+    font-size: 30px;
+    margin: 0px 0 40px 20px;
+}
+.lname,.lemail,.lpassword,.lphone{
+    margin: 20px;
+    color: #666565;
+    font-size: 16px;
+}
+.lpassword{
+    margin-bottom: 40px;
+}
+.linput{
+    height: 32px;
+    font-size: 20px;
+    outline: none;
+    width: 100%;
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: 2px solid black;
+}
+.lerror{
+    margin-left: 20px;
+    padding-bottom: -40px;
+    color: red;
+}
+.lsubmit{
+    display: flex;
+    text-transform: uppercase;
+    font-size: 20px;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 60px;
+    background-color: #1464F4;
+    margin: auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: all 0.1s;
+}
+.lsubmit:hover{
+    background-color: rgb(235, 235, 235);
+    color: #1464F4;
+    border: 1px solid black;
+}
+button:active{
+    transform: translateY(2px);
+}
+.lform-success{
+    display: flex;
+    justify-content: center;
+    margin-top: 250px;
+    min-width: 370px;
+    color: #1464F4;
+}
+.Sign-up{
+    margin:23px;
+}
+.sign{
+    text-decoration: none;
+    color: #1464F4;
+}
