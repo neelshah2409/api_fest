@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Validation from './validation';
 
 import "./login.css"
-const SignUp = () => {
+const SignUp = ({handleChanges}) => {
 
   const [values, setValues] = useState({
     fullname: "",
@@ -61,9 +61,7 @@ const SignUp = () => {
         </form>
         <div className='Sign-up'>
           <span>Already have an account</span>
-          
-            <a href="" className='sign'> Login</a>
-          
+            <a href="#" onClick={()=>handleChanges("event",0)} className='sign'> Login</a>
         </div>
       </div>
       

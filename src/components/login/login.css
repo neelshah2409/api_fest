@@ -3,16 +3,14 @@
     padding: 0;
 }
 .lcontainer{
-    background-color:#1464F4;
-    width: 100%;
-    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .lapp-wrapper{
+    border: 2px solid #1464F4;
     background-color: #fff;
-    min-height: 650px;
+    min-height: 600px;
     min-width: 350px;
     padding: 30px;
     box-sizing: border-box;
@@ -81,4 +79,11 @@ button:active{
 .sign{
     text-decoration: none;
     color: #1464F4;
+}
+.css-heg063-MuiTabs-flexContainer{
+    display: flex;
+    justify-content: center;
+}
+.css-1ujnqem-MuiTabs-root{
+    margin-bottom: 20px;
 }
