@@ -10,6 +10,8 @@ And it further asks the users to select specialist and location.
 
 The API used is in JSON format with the help of **Postman Mock server**.
 
+## Postman WorkSpace
+- https://www.postman.com/lively-satellite-728720/workspace/api-fest/collection/16893332-797a9d2c-e8b8-459f-b547-79056e03a411
 
 ## Screenshots
 
