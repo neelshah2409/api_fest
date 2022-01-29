@@ -1,0 +1,37 @@
+.dcontainer{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    background-image: url('../images/bgg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.dbox1{
+    font-size: 50px;
+    color: rgb(4, 64, 114);
+}
+.dbox2{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.dselection{
+    display: flex;
+}
+.dselect,.dsubmit{
+    margin: 20px;
+}
+.dselect{
+    width:350px;
+}
+.dsubmit{
+    font-size: 20px;
+    padding: 4px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
